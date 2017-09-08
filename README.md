@@ -34,7 +34,7 @@ module "container_service" {
 - `alb_container_name` - Name of the container the ALB should route traffic too (Default: `unknown`)
 - `alb_container_port` - Port the ALB will route traffic to on the container (Default: `unknown`)
 - `alb_internal_bool` - Boolean flag to set the ALB to internal or public (Default: `true`)
-- `custom_url` - Prefix for the URL - environment will append. I.e. test will be test-env.s-9.us (Default `unknown`)
+- `custom_url` - Prefix for the URL - environment will append. I.e. test will be test-env.whatever.com (Default `unknown`)
 - `domain_zone_id` - Route53 Hosted Zone ID (Default: `unknown`)
 - `service_desired_count` - Number of services desired to run - Ignored after initial run (Default: `1`)
 - `region` - Where it all happens (Default: `us-east-1`)
