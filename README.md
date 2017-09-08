@@ -6,7 +6,7 @@ A Terraform module to create an Amazon Web Services (AWS) ECS Service on top of 
 
 ```hcl
 module "container_service" {
-  source = "git::ssh://git@github.com/shoprunner/ecs-service-tf?ref=0.1.0"
+  source = "git::ssh://git@github.com/kgirthofer/ecs-service-tf?ref=0.1.0"
 
   cluster_name = "test-cluster"
   
